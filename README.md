@@ -1,9 +1,9 @@
 ### Hi there 👋
-######Coding for:
-######Economy (‌All related functions)
-######And I will be very happy if you use and share and send me your comments
+- 🔭 I’m currently working on ...
+Coding for Economy (‌All related functions)
+And I will be very happy if you use and share and send me your comments
 
-######I am on the following social networks
+I am on the following social networks
 <!--
 **omidshz100/omidshz100** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
