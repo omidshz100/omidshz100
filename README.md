@@ -1,5 +1,5 @@
-<h2> Hi, I'm Omid Shojaeian Zanjani! <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="50"></h2>
-<img align='right' src="https://media.giphy.com/media/ieyl9zmCjO4b4t6qoY/giphy.gif" width="230">
+<h2> Hi, I'm Omid Shojaeian Zanjani! <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/ITRemFlr5tS39AzQUL/giphy-downsized-large.gif" width="230">
 <p></em></p>
 
 [![Twitter: ThaiiBraga](https://img.shields.io/twitter/follow/_omid_shojaeian?style=social)](https://twitter.com/_omid_shojaeian)
