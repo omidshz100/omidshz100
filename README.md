@@ -1,9 +1,14 @@
 ### Hi there 👋
-- 🔭 I’m currently working on ...
-Coding for Economy (‌All related functions)
-And I will be very happy if you use and share and send me your comments
+- 🔭 I’m currently working on : 
+  Coding for Economy (‌All related functions)
+- 🌱 I’m currently learning : 
+  Machine learning with python 
+  AI 
+  Unity Game Engine
 
-I am on the following social networks
+
+- 📫 How to reach me: 
+
 <!--
 **omidshz100/omidshz100** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
