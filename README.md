@@ -11,9 +11,8 @@
 
 ```Python
  Shojaeian = {
-  pronouns: "he" | "his",
-  code: [python, C#, swift],
-  tools: [Unity, Xamarin, Pycharm, Google Colab],
+  code: ["python", "C#", "swift"],
+  tools: ["Unity", "Xamarin", "Pycharm", "Google Colab"],
   architecture: ["Mobile Games", "Tensorflow", "keras","Pycharm","Pandas","Numpy"],
  challenge: "I am doing the coursera online courses"
 }
