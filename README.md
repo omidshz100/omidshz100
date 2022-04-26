@@ -11,8 +11,8 @@
 
 ```Python
  Shojaeian = {
-  code: ["python", "JavaScript"],
-  tools: ["Flutter","Pycharm", "Google Colab"],
+  code: ["python"],
+  tools: ["Pycharm", "Google Colab"],
   architecture: ["Tensorflow", "keras","Pycharm","Pandas","Numpy","React"],
  challenge: "I am doing the coursera online courses"
 }
