@@ -55,7 +55,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/omidshz100/omidshz100/output/snake.svg" alt="Snake animation" />
+<img src="[https://raw.githubusercontent.com/omidshz100/omidshz100/output/snake.svg](https://github.com/omidshz100/omidshz100/blob/main/snake.yml)" alt="Snake animation" />
 
 ###
 
