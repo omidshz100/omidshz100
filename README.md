@@ -1,79 +1,21 @@
 <div align="center">
   
-  <!-- Binary Rain Background -->
-  <div style="position: relative; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%); padding: 40px 20px; border-radius: 20px; margin: 20px 0; overflow: hidden;">
-    
-    <!-- Binary Rain SVG Animation -->
-    <svg width="100%" height="300" style="position: absolute; top: 0; left: 0; z-index: 1;">
-      <defs>
-        <style>
-          .binary-text {
-            font-family: 'Courier New', monospace;
-            font-size: 14px;
-            fill: #00ff41;
-            opacity: 0.7;
-          }
-          .binary-column-1 { animation: fall1 3s linear infinite; }
-          .binary-column-2 { animation: fall2 4s linear infinite; }
-          .binary-column-3 { animation: fall3 3.5s linear infinite; }
-          .binary-column-4 { animation: fall4 4.5s linear infinite; }
-          .binary-column-5 { animation: fall5 3.2s linear infinite; }
-          .binary-column-6 { animation: fall6 4.2s linear infinite; }
-          .binary-column-7 { animation: fall7 3.8s linear infinite; }
-          .binary-column-8 { animation: fall8 4.8s linear infinite; }
-          
-          @keyframes fall1 { 0% { transform: translateY(-100px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateY(400px); opacity: 0; } }
-          @keyframes fall2 { 0% { transform: translateY(-120px); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateY(420px); opacity: 0; } }
-          @keyframes fall3 { 0% { transform: translateY(-80px); opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateY(380px); opacity: 0; } }
-          @keyframes fall4 { 0% { transform: translateY(-140px); opacity: 0; } 18% { opacity: 1; } 82% { opacity: 1; } 100% { transform: translateY(440px); opacity: 0; } }
-          @keyframes fall5 { 0% { transform: translateY(-90px); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateY(390px); opacity: 0; } }
-          @keyframes fall6 { 0% { transform: translateY(-110px); opacity: 0; } 20% { opacity: 1; } 80% { opacity: 1; } 100% { transform: translateY(410px); opacity: 0; } }
-          @keyframes fall7 { 0% { transform: translateY(-70px); opacity: 0; } 14% { opacity: 1; } 86% { opacity: 1; } 100% { transform: translateY(370px); opacity: 0; } }
-          @keyframes fall8 { 0% { transform: translateY(-130px); opacity: 0; } 16% { opacity: 1; } 84% { opacity: 1; } 100% { transform: translateY(430px); opacity: 0; } }
-        </style>
-      </defs>
-      
-      <!-- Binary Rain Columns -->
-      <text x="5%" y="0" class="binary-text binary-column-1">1010110<tspan x="5%" dy="20">0110101</tspan><tspan x="5%" dy="20">1101010</tspan><tspan x="5%" dy="20">0101101</tspan><tspan x="5%" dy="20">1010110</tspan><tspan x="5%" dy="20">0110101</tspan><tspan x="5%" dy="20">1101010</tspan></text>
-      
-      <text x="15%" y="0" class="binary-text binary-column-2">0101101<tspan x="15%" dy="20">1010110</tspan><tspan x="15%" dy="20">0110101</tspan><tspan x="15%" dy="20">1101010</tspan><tspan x="15%" dy="20">0101101</tspan><tspan x="15%" dy="20">1010110</tspan><tspan x="15%" dy="20">0110101</tspan></text>
-      
-      <text x="25%" y="0" class="binary-text binary-column-3">1101010<tspan x="25%" dy="20">0101101</tspan><tspan x="25%" dy="20">1010110</tspan><tspan x="25%" dy="20">0110101</tspan><tspan x="25%" dy="20">1101010</tspan><tspan x="25%" dy="20">0101101</tspan><tspan x="25%" dy="20">1010110</tspan></text>
-      
-      <text x="35%" y="0" class="binary-text binary-column-4">0110101<tspan x="35%" dy="20">1101010</tspan><tspan x="35%" dy="20">0101101</tspan><tspan x="35%" dy="20">1010110</tspan><tspan x="35%" dy="20">0110101</tspan><tspan x="35%" dy="20">1101010</tspan><tspan x="35%" dy="20">0101101</tspan></text>
-      
-      <text x="45%" y="0" class="binary-text binary-column-5">1010110<tspan x="45%" dy="20">0110101</tspan><tspan x="45%" dy="20">1101010</tspan><tspan x="45%" dy="20">0101101</tspan><tspan x="45%" dy="20">1010110</tspan><tspan x="45%" dy="20">0110101</tspan><tspan x="45%" dy="20">1101010</tspan></text>
-      
-      <text x="55%" y="0" class="binary-text binary-column-6">0101101<tspan x="55%" dy="20">1010110</tspan><tspan x="55%" dy="20">0110101</tspan><tspan x="55%" dy="20">1101010</tspan><tspan x="55%" dy="20">0101101</tspan><tspan x="55%" dy="20">1010110</tspan><tspan x="55%" dy="20">0110101</tspan></text>
-      
-      <text x="65%" y="0" class="binary-text binary-column-7">1101010<tspan x="65%" dy="20">0101101</tspan><tspan x="65%" dy="20">1010110</tspan><tspan x="65%" dy="20">0110101</tspan><tspan x="65%" dy="20">1101010</tspan><tspan x="65%" dy="20">0101101</tspan><tspan x="65%" dy="20">1010110</tspan></text>
-      
-      <text x="75%" y="0" class="binary-text binary-column-8">0110101<tspan x="75%" dy="20">1101010</tspan><tspan x="75%" dy="20">0101101</tspan><tspan x="75%" dy="20">1010110</tspan><tspan x="75%" dy="20">0110101</tspan><tspan x="75%" dy="20">1101010</tspan><tspan x="75%" dy="20">0101101</tspan></text>
-      
-      <text x="85%" y="0" class="binary-text binary-column-1">1010110<tspan x="85%" dy="20">0110101</tspan><tspan x="85%" dy="20">1101010</tspan><tspan x="85%" dy="20">0101101</tspan><tspan x="85%" dy="20">1010110</tspan><tspan x="85%" dy="20">0110101</tspan><tspan x="85%" dy="20">1101010</tspan></text>
-      
-      <text x="95%" y="0" class="binary-text binary-column-3">0101101<tspan x="95%" dy="20">1010110</tspan><tspan x="95%" dy="20">0110101</tspan><tspan x="95%" dy="20">1101010</tspan><tspan x="95%" dy="20">0101101</tspan><tspan x="95%" dy="20">1010110</tspan><tspan x="95%" dy="20">0110101</tspan></text>
-    </svg>
-    
-    <!-- Content Over Binary Rain -->
-    <div style="position: relative; z-index: 2;">
-      <!-- Animated Header -->
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B%2C+I'm+Omid+Shojaeian+Zanjani;Data+Scientist+%7C+Blockchain+Developer;Python+%7C+JavaScript+%7C+Solidity+Expert;Building+the+Future+with+AI+%26+Web3" alt="Typing SVG" />
-      
-      <!-- Professional Subtitle -->
-      <h3 align="center" style="color: #00ff41; text-shadow: 0 0 10px #00ff41; margin: 20px 0;">
-        <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-        Professional Data Scientist & Blockchain Developer 
-        <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-      </h3>
-      
-      <!-- Matrix-style Quote -->
-      <p style="color: #00ff41; font-family: 'Courier New', monospace; font-size: 16px; text-align: center; margin: 20px 0; text-shadow: 0 0 5px #00ff41;">
-        "There is no spoon... only data and algorithms" 🔮
-      </p>
-    </div>
-    
-  </div>
+  <!-- Animated Header -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B%2C+I'm+Omid+Shojaeian+Zanjani;Data+Scientist+%7C+Blockchain+Developer;Python+%7C+JavaScript+%7C+Solidity+Expert;Building+the+Future+with+AI+%26+Web3" alt="Typing SVG" />
+  
+  <!-- Professional Subtitle -->
+  <h3 align="center">
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+    Professional Data Scientist & Blockchain Developer 
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+  </h3>
+  
+  <!-- Cyberpunk Quote -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/💻_Code-Matrix-00ff41?style=for-the-badge&logo=matrix&logoColor=black" alt="Matrix"/>
+    <img src="https://img.shields.io/badge/🔮_Data-Algorithms-00ff41?style=for-the-badge&logo=algorithm&logoColor=black" alt="Algorithms"/>
+    <img src="https://img.shields.io/badge/⚡_Future-Web3-00ff41?style=for-the-badge&logo=ethereum&logoColor=black" alt="Web3"/>
+  </p>
   
   <!-- Animated Banner -->
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Data%20Science%20%7C%20Web3%20%7C%20AI&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
