@@ -212,6 +212,95 @@ class DataScientist:
 
 ---
 
+## 💬 Quick Message
+
+<div align="center">
+  
+  ### 📱 Send me a message directly to my Telegram!
+  
+  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; margin: 20px 0; max-width: 500px; margin-left: auto; margin-right: auto;">
+    
+    <form id="telegramForm" style="display: flex; flex-direction: column; gap: 15px;">
+      
+      <div style="display: flex; gap: 10px;">
+        <input type="text" id="senderName" placeholder="نام شما" required style="flex: 1; padding: 12px; border: none; border-radius: 8px; font-size: 14px; background: rgba(255,255,255,0.9);"/>
+        <input type="email" id="senderEmail" placeholder="ایمیل (اختیاری)" style="flex: 1; padding: 12px; border: none; border-radius: 8px; font-size: 14px; background: rgba(255,255,255,0.9);"/>
+      </div>
+      
+      <textarea id="messageText" placeholder="پیام خود را اینجا بنویسید..." required rows="4" style="width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 14px; background: rgba(255,255,255,0.9); resize: vertical; box-sizing: border-box;"></textarea>
+      
+      <button type="submit" style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        📤 ارسال پیام به تلگرام
+      </button>
+      
+      <div id="messageStatus" style="text-align: center; margin-top: 10px;"></div>
+      
+    </form>
+    
+    <p style="color: rgba(255,255,255,0.8); font-size: 12px; margin-top: 10px;">
+      💡 پیام شما مستقیماً به تلگرام من ارسال می‌شود و در اسرع وقت پاسخ خواهم داد
+    </p>
+    
+    <script>
+      document.getElementById('telegramForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('senderName').value;
+        const email = document.getElementById('senderEmail').value;
+        const message = document.getElementById('messageText').value;
+        const statusDiv = document.getElementById('messageStatus');
+        
+        // Show loading
+        statusDiv.innerHTML = '<p style="color: #FFE066;">⏳ در حال ارسال...</p>';
+        
+        try {
+          // For now, we'll use a simple mailto fallback
+          // You can replace this URL with your deployed bot server
+          const telegramBotUrl = 'https://your-telegram-bot-server.herokuapp.com/send-message';
+          
+          const response = await fetch(telegramBotUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              name: name,
+              email: email,
+              message: message
+            })
+          });
+          
+          if (response.ok) {
+            statusDiv.innerHTML = '<p style="color: #4ECDC4;">✅ پیام با موفقیت ارسال شد!</p>';
+            document.getElementById('telegramForm').reset();
+          } else {
+            throw new Error('Server error');
+          }
+          
+        } catch (error) {
+          // Fallback to email
+          const emailSubject = encodeURIComponent(`پیام از ${name} - GitHub Profile`);
+          const emailBody = encodeURIComponent(`نام: ${name}\nایمیل: ${email}\n\nپیام:\n${message}`);
+          const mailtoLink = `mailto:omidshz100@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+          
+          window.open(mailtoLink, '_blank');
+          statusDiv.innerHTML = '<p style="color: #FFE066;">📧 ایمیل باز شد - لطفاً ارسال کنید</p>';
+        }
+      });
+    </script>
+    
+  </div>
+  
+  <div style="margin: 30px 0;">
+    <p style="font-size: 18px; color: #666;">
+      🤝 یا از طریق شبکه‌های اجتماعی با من در ارتباط باشید:
+    </p>
+  </div>
+  
+</div>
+
+---
+
 <div align="center">
   
   ### 💼 Open for Opportunities
