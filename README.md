@@ -187,84 +187,26 @@ class DataScientist:
 
 <div align="center">
   
-  <style>
-    .social-icon {
-      display: inline-block;
-      margin: 15px;
-      transition: all 0.3s ease;
-      border-radius: 50%;
-      box-shadow: none !important;
-      text-decoration: none;
-    }
-    .social-icon:hover {
-      transform: translateY(-5px) scale(1.1);
-      filter: brightness(1.2);
-    }
-    .social-icon img {
-      border-radius: 50%;
-      box-shadow: none !important;
-      border: 3px solid transparent;
-      transition: all 0.3s ease;
-    }
-    .social-icon:hover img {
-      border: 3px solid rgba(255,255,255,0.3);
-      box-shadow: 0 8px 25px rgba(0,0,0,0.2) !important;
-    }
-  </style>
-  
-  <!-- Modern Social Media Icons with Hover Effects -->
-  <div style="margin: 30px 0;">
-    <a href="https://www.linkedin.com/in/omid-shojaeian-zanjani-47479b47/" target="_blank" class="social-icon">
-      <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5&color=0077B5" alt="LinkedIn" height="50" style="border-radius: 15px; margin: 0 8px;"/>
+  <p>
+    <a href="https://www.linkedin.com/in/omid-shojaeian-zanjani-47479b47/" target="_blank">
+      <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="40"/>
     </a>
-    
-    <a href="https://www.xing.com/profile/Omid_Shojaeian/web_profiles" target="_blank" class="social-icon">
-      <img src="https://img.shields.io/badge/-Xing-006567?style=for-the-badge&logo=xing&logoColor=white&labelColor=006567&color=006567" alt="Xing" height="50" style="border-radius: 15px; margin: 0 8px;"/>
+    <a href="https://www.xing.com/profile/Omid_Shojaeian/web_profiles" target="_blank">
+      <img src="https://img.shields.io/badge/-Xing-006567?style=for-the-badge&logo=xing&logoColor=white" alt="Xing" height="40"/>
     </a>
-    
-    <a href="https://x.com/omid_shojaeian" target="_blank" class="social-icon">
-      <img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000&color=000000" alt="X (Twitter)" height="50" style="border-radius: 15px; margin: 0 8px;"/>
+    <a href="https://x.com/omid_shojaeian" target="_blank">
+      <img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" height="40"/>
     </a>
-    
-    <a href="https://instagram.com/omid.shojaeian1" target="_blank" class="social-icon">
-      <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F&color=E4405F" alt="Instagram" height="50" style="border-radius: 15px; margin: 0 8px;"/>
+    <a href="https://instagram.com/omid.shojaeian1" target="_blank">
+      <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" height="40"/>
     </a>
-    
-    <a href="https://www.youtube.com/@TrueMomentsVelogs" target="_blank" class="social-icon">
-      <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000&color=FF0000" alt="YouTube" height="50" style="border-radius: 15px; margin: 0 8px;"/>
+    <a href="https://www.youtube.com/@TrueMomentsVelogs" target="_blank">
+      <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" height="40"/>
     </a>
-    
-    <a href="mailto:omidshz100@gmail.com" target="_blank" class="social-icon">
-      <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836&color=D14836" alt="Email" height="50" style="border-radius: 15px; margin: 0 8px;"/>
+    <a href="mailto:omidshz100@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="40"/>
     </a>
-  </div>
-  
-  <!-- Alternative Circular Icons with Clean Design -->
-  <div style="margin: 40px 0;">
-    <a href="https://www.linkedin.com/in/omid-shojaeian-zanjani-47479b47/" target="_blank" style="text-decoration: none; margin: 0 15px;">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="45" height="45" style="background: linear-gradient(135deg, #0077B5, #00A0DC); padding: 12px; border-radius: 50%; transition: all 0.3s ease; filter: invert(1);" onmouseover="this.style.transform='scale(1.2) translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(0,119,181,0.4)'" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.boxShadow='none'"/>
-    </a>
-    
-    <a href="https://www.xing.com/profile/Omid_Shojaeian/web_profiles" target="_blank" style="text-decoration: none; margin: 0 15px;">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xing.svg" alt="Xing" width="45" height="45" style="background: linear-gradient(135deg, #006567, #008B8D); padding: 12px; border-radius: 50%; transition: all 0.3s ease; filter: invert(1);" onmouseover="this.style.transform='scale(1.2) translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(0,101,103,0.4)'" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.boxShadow='none'"/>
-    </a>
-    
-    <a href="https://x.com/omid_shojaeian" target="_blank" style="text-decoration: none; margin: 0 15px;">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="X" width="45" height="45" style="background: linear-gradient(135deg, #000000, #333333); padding: 12px; border-radius: 50%; transition: all 0.3s ease; filter: invert(1);" onmouseover="this.style.transform='scale(1.2) translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.4)'" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.boxShadow='none'"/>
-    </a>
-    
-    <a href="https://instagram.com/omid.shojaeian1" target="_blank" style="text-decoration: none; margin: 0 15px;">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="45" height="45" style="background: linear-gradient(135deg, #E4405F, #C13584, #833AB4); padding: 12px; border-radius: 50%; transition: all 0.3s ease; filter: invert(1);" onmouseover="this.style.transform='scale(1.2) translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(228,64,95,0.4)'" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.boxShadow='none'"/>
-    </a>
-    
-    <a href="https://www.youtube.com/@TrueMomentsVelogs" target="_blank" style="text-decoration: none; margin: 0 15px;">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" width="45" height="45" style="background: linear-gradient(135deg, #FF0000, #FF4500); padding: 12px; border-radius: 50%; transition: all 0.3s ease; filter: invert(1);" onmouseover="this.style.transform='scale(1.2) translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(255,0,0,0.4)'" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.boxShadow='none'"/>
-    </a>
-    
-    <a href="mailto:omidshz100@gmail.com" target="_blank" style="text-decoration: none; margin: 0 15px;">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail" width="45" height="45" style="background: linear-gradient(135deg, #D14836, #EA4335); padding: 12px; border-radius: 50%; transition: all 0.3s ease; filter: invert(1);" onmouseover="this.style.transform='scale(1.2) translateY(-3px)'; this.style.boxShadow='0 10px 20px rgba(209,72,54,0.4)'" onmouseout="this.style.transform='scale(1) translateY(0)'; this.style.boxShadow='none'"/>
-    </a>
-  </div>
+  </p>
   
 </div>
 
