@@ -187,21 +187,42 @@ class DataScientist:
 
 <div align="center">
   
-  <a href="https://linkedin.com/in/omid-shojaeian-zanjani">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/omid-shojaeian-zanjani-47479b47/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5&color=0077B5&logoWidth=20" alt="LinkedIn" style="border-radius: 10px; margin: 5px;"/>
   </a>
-  <a href="https://x.com/omid_shojaeian">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
+  <a href="https://x.com/omid_shojaeian" target="_blank">
+    <img src="https://img.shields.io/badge/-X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000&color=000000&logoWidth=20" alt="X (Twitter)" style="border-radius: 10px; margin: 5px;"/>
   </a>
-  <a href="mailto:omidshz100@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="mailto:omidshz100@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836&color=D14836&logoWidth=20" alt="Email" style="border-radius: 10px; margin: 5px;"/>
   </a>
-  <a href="https://instagram.com/omid.shojaeian1">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  <a href="https://instagram.com/omid.shojaeian1" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F&color=E4405F&logoWidth=20" alt="Instagram" style="border-radius: 10px; margin: 5px;"/>
   </a>
-  <a href="https://www.youtube.com/@TrueMomentsVelogs">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+  <a href="https://www.youtube.com/@TrueMomentsVelogs" target="_blank">
+    <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000&color=FF0000&logoWidth=20" alt="YouTube" style="border-radius: 10px; margin: 5px;"/>
   </a>
+  
+  <br><br>
+  
+  <!-- Alternative Modern Circular Icons -->
+  <p>
+    <a href="https://www.linkedin.com/in/omid-shojaeian-zanjani-47479b47/" target="_blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="40" width="40" style="margin: 0 10px; border-radius: 50%; background: linear-gradient(45deg, #0077B5, #00A0DC); padding: 8px;"/>
+    </a>
+    <a href="https://x.com/omid_shojaeian" target="_blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="X (Twitter)" height="40" width="40" style="margin: 0 10px; border-radius: 50%; background: linear-gradient(45deg, #000000, #333333); padding: 8px;"/>
+    </a>
+    <a href="mailto:omidshz100@gmail.com" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="Email" height="40" width="40" style="margin: 0 10px; border-radius: 50%; background: linear-gradient(45deg, #D14836, #EA4335); padding: 8px; filter: invert(1);"/>
+    </a>
+    <a href="https://instagram.com/omid.shojaeian1" target="_blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="40" width="40" style="margin: 0 10px; border-radius: 50%; background: linear-gradient(45deg, #E4405F, #C13584, #833AB4); padding: 8px;"/>
+    </a>
+    <a href="https://www.youtube.com/@TrueMomentsVelogs" target="_blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="40" width="40" style="margin: 0 10px; border-radius: 50%; background: linear-gradient(45deg, #FF0000, #FF4500); padding: 8px;"/>
+    </a>
+  </p>
   
 </div>
 
